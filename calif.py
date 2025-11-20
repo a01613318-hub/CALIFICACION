@@ -15,9 +15,9 @@ def user_input_features():
   exam_score = st.number_input('exam_score', min_value=0, max_value=50, value = 0)
 
 
-  user_input_data = {'hours_studied': Horas de estudio,
-                     'sleep_hours': Horas de sueño,
-                     'attendance_percent': Porcentaje de asistencia,
+  user_input_data = {'hours_studied': horas de estudio,
+                     'sleep_hours': horas de sueño,
+                     'attendance_percent': porcentaje de asistencia,
                      'previous_scores': calificaciones previas
                      }
 
