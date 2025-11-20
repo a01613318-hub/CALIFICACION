@@ -39,6 +39,6 @@ LR.fit(X_train,y_train)
 
 b1 = LR.coef_
 b0 = LR.intercept_
-prediccion = b0 + b1[0]*df['hours_studied'] + b1[1]*df['sleep_hours'] + b1[2]*df['attendance_percent'] + b1[3]*df[previous_scores']
+prediccion = b0 + b1[0]*df['hours_studied'] + b1[1]*df['sleep_hours'] + b1[2]*df['attendance_percent'] + b1[3]*df['previous_scores']
 st.subheader('Cálculo de calificación')
-st.write('' es ', prediccion)
+st.write('La cali es ', prediccion)
